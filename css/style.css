@@ -61,6 +61,15 @@ body {
    }
 }
 
+.pictures {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   min-height: 100vh;
+   overflow: clip;
+}
+
 .floor {
    position: absolute;
    /* позиционирование каменного пола от низа экрана (в процентах относительно высоты экрана) */
