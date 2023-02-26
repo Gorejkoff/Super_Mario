@@ -5,10 +5,10 @@
    font-weight: 400;
    src: local("Nineteen Ninety Seven"),
       /* Пути к файлам шрифта */
-      url("/fonts/NineteenNinetySeven.otf") format("otf"),
-      url("/fonts/NineteenNinetySeven.ttf") format("ttf"),
-      url("/fonts/NineteenNinetySeven.woff") format("woff"),
-      url("/fonts/NineteenNinetySeven.woff2") format("woff2");
+      url("../fonts/NineteenNinetySeven.otf") format("otf"),
+      url("../fonts/NineteenNinetySeven.ttf") format("ttf"),
+      url("../fonts/NineteenNinetySeven.woff") format("woff"),
+      url("../fonts/NineteenNinetySeven.woff2") format("woff2");
 }
 
 /* замена изображения курсора */
