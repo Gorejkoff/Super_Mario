@@ -42,7 +42,7 @@ body {
    /* настройки отображения картинки */
    background-repeat: no-repeat;
    background-size: cover;
-   overflow: clip;
+   overflow: hidden;
 }
 
 /* Медиа запрос. Применяются стили указанные в медиазапросе при ширине экрана меньше указанного (1440px) */
@@ -59,15 +59,6 @@ body {
    .main {
       padding-bottom: 50vw;
    }
-}
-
-.pictures {
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   min-height: 100vh;
-   overflow: hidden;
 }
 
 .floor {
